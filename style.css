@@ -109,11 +109,13 @@ h3 {
 
 .text {
    display: flex; 
-  justify-content: center;
+  justify-content: space-between;
   padding: 30px;}
+  .right {width: 40%;}
+  .left {width: 40%;}
 
 .right img {
-  width: 40%;
+  width: 100%;
   height: auto;
   display: block;}
 
