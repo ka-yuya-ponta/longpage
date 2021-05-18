@@ -138,13 +138,16 @@ padding: 5px 15px;}
  text-align: center;}
 
 .content1 img {
-  width: 100px;}
+  width: 100px;
+padding-left: 10px;}
 
 .content2 img {
-  width: 100px;}
+  width: 100px;
+padding-left: 20px;}
 
 .content3 img {
-  width: 100px;}
+  width: 100px;
+ padding-left: 20px;} 
 
 .content2 {grid-column: 2/3;
            grid-row: 1/2;
@@ -202,6 +205,8 @@ padding: 5px 15px;}
    margin-top: 0;
    padding: 15px;
    color: black;} 
+  .small-text {display: flex;
+  justify-content: space-between;}
 
  .auto h4 { 
    width: 120px;
