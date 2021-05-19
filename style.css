@@ -195,11 +195,12 @@ padding-left: 20px;}
 
  .z {
    position: absolute;
-   background-color: darkorchid;
+   background-color: mediumvioletred;
    color: white;
    width: 50px;
    border-radius: 3px 0 0 0;
-   text-align: center;}
+   text-align: center;
+  }
  
  .card-text  {
    margin-top: 0;
@@ -209,11 +210,11 @@ padding-left: 20px;}
   justify-content: space-between;}
 
  .auto h4 { 
-   width: 120px;
+   width: 200px;
    background-color: white;
-   border: solid blueviolet;
-   color: blueviolet;
-   border-radius: 10px;
+   border: solid mediumvioletred 1px;
+   color: mediumvioletred;
+   border-radius: 30px;
    text-align: center;
    padding: 10px;
 margin: 0 auto;
@@ -225,7 +226,7 @@ height: auto;}
 .third-header {
   padding: 30px;
   margin: 0 auto;
-  width: 60%;}
+  width: 70%;}
 
 table {
   border: solid gainsboro 1px;
@@ -233,14 +234,18 @@ table {
   border-spacing: 0;}
 
 th {
-  background-color: gainsboro;
+  background-color:#ebebee;
   border-bottom: solid 1px gainsboro;
-  padding: 3px;}
+  padding: 3px;
+text-align: left;
+padding: 10px;
+color:grey ;}
 
 td {
   background-color: white;
   border-bottom: solid gainsboro 1px;
-  padding: 5px;}
+  padding: 10px;
+  color: grey;}
 
 .s {
   border-bottom: none;}
